@@ -1,0 +1,11 @@
+{% extends "maintemplate.html" %}
+{% block title %}This is a handy dandy web page.{% endblock %}
+{% block head_section %}
+  {{ super() }}
+<style type="text/css">
+.blue { color: blue; }
+</style>
+{% endblock %}
+{% block header %}<h1>Handy Dandy Web Page</h1>{% endblock %}
+{% block content %}<p class="blue">This here's the main page.</p>{% endblock %}
+

@@ -1,0 +1,11 @@
+{% extends "maintemplate.html" %}
+{% block title %}This is a handy dandy checklist.{% endblock %}
+{% block head_section %}
+  {{ super() }}
+<style type="text/css">
+.blue { color: red; }
+</style>
+{% endblock %}
+{% block header %}<h1>Handy Dandy Checklist</h1>{% endblock %}
+{% block content %}<p class="blue">This here's where you'd stick a checklist.</p>{% endblock %}
+
